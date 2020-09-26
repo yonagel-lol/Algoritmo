@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 { font-size: 70px; font-weight: 2000; line-height: 2000px;}
+
+.navbar {
+    background-color: pink;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link {color: black;}
+.nav-link:hover {color: black;} 
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler { font-size: 40px; }
+.navbar-toggler :focus {outline none; }
+
+
+#hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    padding-top: 800px;
+    min-height: 800px;
+    color: floralwhite
+}
+
+ .content-center {
+     max-width: 2000px;
+     margin: 2000 auto 2000 auto center;
+     text-align: center;
+
+
+}
